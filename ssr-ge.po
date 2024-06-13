@@ -5,7 +5,7 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: ka_GE\n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,8 +13,8 @@ msgstr ""
 "X-Generator: Poedit 3.4.2\n"
 
 #: src/core/ChatProvider.js:434
-msgid "You can not send chat messages with proxy"
-msgstr "ვერ გაგზავნი მესიჯებს პროქსით"
+msgid "You can not send chat messages while using a proxy"
+msgstr ""
 
 #: src/core/ChatProvider.js:436
 msgid "Your country is temporary muted from this chat channel"
@@ -96,17 +96,9 @@ msgstr "პაროლი წარმატებით შეიცვალ�
 msgid "Invalid url :( Please check your mail again."
 msgstr "არასწორი url :( გთხოვთ, ხელახლა შეამოწმოთ თქვენი ფოსტა."
 
-#: src/ssr/PopUp.jsx:47
-msgid "pmfun"
-msgstr "pmfun"
-
-#: src/ssr/PopUp.jsx:48
-msgid "PixMap.Fun PopUp"
-msgstr "PixMap.Fun PopUp"
-
 #: src/ssr/Globe.jsx:37
-msgid "PixMap.Fun 3DGlobe"
-msgstr "PixMap.Fun 3DGlobe"
+msgid "PixMap.fun 3DGlobe"
+msgstr "პიქსმაპის გლობუსი"
 
 #: src/ssr/Globe.jsx:38
 msgid "A 3D globe of our whole map"
@@ -120,11 +112,20 @@ msgstr "ორჯერ დააწკაპუნეთ გლობუსზ�
 msgid "Loading..."
 msgstr "Ჩატვირთვა..."
 
-#: src/ssr/Main.jsx:55
-msgid "PixMap.Fun"
-msgstr "PixMap.Fun"
+#: src/ssr/PopUp.jsx:47
+#, fuzzy
+msgid "ppfun"
+msgstr "პპფუნ"
 
-#: src/ssr/Main.jsx:56
+#: src/ssr/PopUp.jsx:48
+msgid "PixMap.fun PopUp"
+msgstr "პიქსმაპის პოპუპი"
+
+#: src/ssr/Main.jsx:62
+msgid "PixMap.fun"
+msgstr "პიქსმაპი"
+
+#: src/ssr/Main.jsx:63
 msgid "Place color pixels on an map styled canvas with other players online"
 msgstr ""
 "განათავსეთ ფერადი პიქსელები რუკის კანვასზე ტილოზე სხვა მოთამაშეებთან ერთად "
@@ -272,31 +273,6 @@ msgstr "ახალი მომხმარებლის შექმნა 
 msgid "Failed to establish session after register :("
 msgstr "რეგისტრაციის შემდეგ სესიის დამყარება ვერ მოხერხდა :("
 
-#: src/routes/api/auth/logout.js:11
-msgid "You are not even logged in."
-msgstr "თქვენ არც კი ხართ შესული."
-
-#: src/routes/api/auth/delete_account.js:65 src/routes/api/auth/logout.js:20
-msgid "Server error when logging out."
-msgstr "სერვერის შეცდომა გამოსვლისას."
-
-#: src/routes/api/auth/change_mail.js:44
-#: src/routes/api/auth/change_passwd.js:34
-#: src/routes/api/auth/delete_account.js:36
-msgid "You are not authenticated."
-msgstr "თქვენ არ ხართ დამოწმებული."
-
-#: src/routes/api/auth/change_mail.js:53
-#: src/routes/api/auth/change_passwd.js:43
-#: src/routes/api/auth/delete_account.js:55
-msgid "Incorrect password!"
-msgstr "Არასწორი პაროლი!"
-
-#: src/routes/api/auth/delete_account.js:46
-#, fuzzy
-msgid "Muted users can not delete their account."
-msgstr "დამიუდებულ მომხმარებლებს არ შეუძლიათ თავიანთი აქაუნთის წაშლა."
-
 #: src/routes/api/auth/verify.js:26 src/routes/api/auth/verify.js:35
 msgid "Mail verification"
 msgstr "ფოსტის გადამოწმება"
@@ -313,10 +289,33 @@ msgstr ""
 "თქვენი ფოსტის დამადასტურებელი კოდი არასწორია ან უკვე ვადაგასულია :(, გთხოვთ, "
 "მოითხოვოთ ახალი."
 
+#: src/routes/api/auth/logout.js:11
+msgid "You are not even logged in."
+msgstr "თქვენ არც კი ხართ შესული."
+
+#: src/routes/api/auth/delete_account.js:65 src/routes/api/auth/logout.js:20
+msgid "Server error when logging out."
+msgstr "სერვერის შეცდომა გამოსვლისას."
+
+#: src/routes/api/auth/change_mail.js:44
+#: src/routes/api/auth/change_passwd.js:34
+#: src/routes/api/auth/delete_account.js:36
+msgid "You are not authenticated."
+msgstr "თქვენ არ ხართ დამოწმებული."
+
+#: src/routes/api/auth/delete_account.js:46
+msgid "Muted Users can not delete their account."
+msgstr "დამუდებულ მომხმარებლებს არ შეულიათ აქაუნთის წაშლა"
+
+#: src/routes/api/auth/change_mail.js:53
+#: src/routes/api/auth/change_passwd.js:43
+#: src/routes/api/auth/delete_account.js:55
+msgid "Incorrect password!"
+msgstr "Არასწორი პაროლი!"
+
 #: src/routes/api/auth/change_mail.js:62
-#, fuzzy
-msgid "Muted users can not do this."
-msgstr "დამუდებულ მომხმარებლებს ამის გაკეთება არ შეულიათ."
+msgid "Muted Users can not do this."
+msgstr "დამიუდებულ მომხმარებლებს არ შეუძლიათ ამის გაკეთება"
 
 #: src/ssr/RedirectionPage.jsx:19
 msgid "PixMap.fun Accounts"
@@ -331,77 +330,45 @@ msgstr "თქვენ ავტომატურად გადამის�
 msgid "Or ${ clickHere } to go back to pixmap"
 msgstr "ან ${ clickHere } რომ დაბრუნდეთ პიქსმაპში"
 
-#: src/canvasesDesc.js:20
+#: src/canvasesDesc.js:21
 msgid "Earth"
 msgstr "დედამიწა"
 
-#: src/canvasesDesc.js:21
+#: src/canvasesDesc.js:22
 msgid "Moon"
 msgstr "მთვარე"
 
-#: src/canvasesDesc.js:22
+#: src/canvasesDesc.js:23
 msgid "3D Canvas"
 msgstr "3დ კანვასი"
 
-#: src/canvasesDesc.js:23
-msgid "Coronavirus"
-msgstr "კორონავირუსი"
-
 #: src/canvasesDesc.js:24
-msgid "PixelZone"
-msgstr "პიქსელზონა"
-
-#: src/canvasesDesc.js:25
-msgid "PixelCanvas"
-msgstr "PixelCanvas"
-
-#: src/canvasesDesc.js:26
 msgid "1bit"
 msgstr "1 ბიტი"
 
-#: src/canvasesDesc.js:27
+#: src/canvasesDesc.js:25
 msgid "Top10"
 msgstr "10 საუკეთესო"
 
-#: src/canvasesDesc.js:28
-msgid "Thoia"
-msgstr "თოია"
-
-#: src/canvasesDesc.js:29
+#: src/canvasesDesc.js:26
 msgid "Mini Map"
 msgstr "პატარა რუკა"
 
-#: src/canvasesDesc.js:30 src/canvasesDesc.js:48
-msgid "Football"
-msgstr "ფეხბურთი"
-
-#: src/canvasesDesc.js:31 src/canvasesDesc.js:49
-msgid "Graffit"
-msgstr "გრაფიტი"
-
-#: src/canvasesDesc.js:32
-msgid "Red vs Blue"
-msgstr "წითელი vs ლურჯი"
-
-#: src/canvasesDesc.js:33
-msgid "Pangea"
-msgstr "პანგეა"
-
-#: src/canvasesDesc.js:34
+#: src/canvasesDesc.js:27
 msgid "MiddleEarth"
 msgstr "შუადედამიწა"
 
-#: src/canvasesDesc.js:35
-msgid "Anarchy"
-msgstr "ანარკია"
+#: src/canvasesDesc.js:28
+msgid "MiniMap"
+msgstr "პატარა რუკა"
 
-#: src/canvasesDesc.js:38
+#: src/canvasesDesc.js:31
 msgid "Our main canvas, a huge map of the world. Place everywhere you like"
 msgstr ""
 "ჩვენი მთავარი კანვასი, მსოფლიოს უზარმაზარი რუკა. განათავსეთ ყველგან, სადაც "
 "გსურთ"
 
-#: src/canvasesDesc.js:39
+#: src/canvasesDesc.js:32
 msgid ""
 "Moon canvas. Safe space for art. No flags or large text (unless part of art) "
 "or art larger than 1.5k x 1.5k pixels."
@@ -410,27 +377,15 @@ msgstr ""
 "ტექსტი (თუ არ არის ხელოვნების ნაწილი) ან 1,5 კ x 1,5 კ პიქსელზე მეტი "
 "ნამუშევარი."
 
-#: src/canvasesDesc.js:40
+#: src/canvasesDesc.js:33
 msgid "Place Voxels on a 3D canvas with others"
 msgstr "მოათავსეთ ვოქსელები 3D ტილოზე სხვებთან ერთად"
 
-#: src/canvasesDesc.js:41
-msgid "Special canvas to spread awareness of SARS-CoV2"
-msgstr "სპეციალური ტილო SARS-CoV2-ის შესახებ ცნობადობის გასავრცელებლად"
-
-#: src/canvasesDesc.js:42
-msgid "Mirror of PixelZone"
-msgstr "PixelZone-ის სარკე"
-
-#: src/canvasesDesc.js:43
-msgid "Mirror of PixelCanvas"
-msgstr "PixelCanvas-ის სარკე"
-
-#: src/canvasesDesc.js:44
+#: src/canvasesDesc.js:34
 msgid "Black and White canvas"
 msgstr "შავ-თეთრი ტილო"
 
-#: src/canvasesDesc.js:45
+#: src/canvasesDesc.js:35
 msgid ""
 "A canvas for the most active players from the the previous day. Daily "
 "ranking updates at 00:00 UTC."
@@ -438,29 +393,11 @@ msgstr ""
 "ტილო წინა დღის ყველაზე აქტიური მოთამაშეებისთვის. ყოველდღიური რეიტინგის "
 "განახლებები 00:00 UTC."
 
-#: src/canvasesDesc.js:46
-msgid ""
-"Thoia World Canvas. Advanced fictional worldbuilding and arts. Abandon the "
-"old world and all it entails."
-msgstr ""
-"თოიას დედამიწა. უბრალოდ არტების ასაშენებლად. მიატოვე ძველი დედამიწა და რაც "
-"დარჩა."
-
-#: src/canvasesDesc.js:47
+#: src/canvasesDesc.js:36
 msgid "Map canvas but in a minimized version for those who want more fun!"
 msgstr "დედამიწის რუკა ოღონდ პატარა ვერსია ვისაც უფრო მეტი გართობა უნდა!"
 
-#: src/canvasesDesc.js:50
-msgid "Chose teams and fight for them until end! "
-msgstr "აიღე თიმები და იბრძოლე ბოლომდე მათთვის! "
-
-#: src/canvasesDesc.js:51
-#, fuzzy
-msgid ""
-"Leave the world and enter into a old map, prehistoric building and factions."
-msgstr "გადი დედამიწიდან და შედი ძველ რუკაზე, ძველი შენობებები და ფრაქციები."
-
-#: src/canvasesDesc.js:52
+#: src/canvasesDesc.js:37
 msgid ""
 "Join the battle between good and evil, men, elves, orcs, hobbits, dwarves, "
 "Error, Rohan, Angmar, Mordor! Come make your mark and build empires on "
@@ -470,14 +407,15 @@ msgstr ""
 "დვრვები, ერორები, როჰანები, ანგმარები, მორდორი! მოდი და გააკეთე შენი ქვეყანა "
 "და იმპერია შუა დედამიწაზე! https://discord.com/invite/Mdp9Fyb8tm"
 
-#: src/canvasesDesc.js:53
-msgid "Just do what ever you want all allowed!"
-msgstr "რაც გინდა ის ქენი აქ სუყველაფერი შეიძლება!"
+#: src/canvasesDesc.js:38
+msgid "The MiniMap canvas but 4x smaller than the main map!"
+msgstr "მინიმაპი რომელიც 4ჯერ პატარაა დედამიწაზე!"
 
 #: src/core/MailProvider.js:66
 #, javascript-format
-msgid "Welcome ${ name } to Pix, please verify your mail"
-msgstr "გამარჯობა  ${ name } პიქსმაპზე, დაადასტურე შენი იმეილი"
+msgid "Welcome ${ name } to pixmap, please verify your mail"
+msgstr ""
+"გამარჯობა ${ name } პიქსმაპზე, გეხვეწებით დაავერიფიკაციეთ თქვენი იმეილი"
 
 #: src/core/MailProvider.js:67
 #, javascript-format
@@ -521,8 +459,8 @@ msgstr ""
 "${ minLeft } წუთში."
 
 #: src/core/MailProvider.js:103
-msgid "You forgot your password for PixMap? Get a new one here"
-msgstr "დაგავიწყდა შენი პაროლი პიქსმაპისთვის? აიღე ახალი აქ"
+msgid "You forgot your password for pixmap? Get a new one here"
+msgstr "დაგავიწყდა პაროლი პიქმაპისთვის? აიღეტ ახალი აქ"
 
 #: src/core/MailProvider.js:104
 msgid "Hello"
@@ -535,7 +473,7 @@ msgid ""
 "next 30min here: "
 msgstr ""
 "თქვენ მოითხოვეთ ახალი პაროლის მიღება. თქვენ შეგიძლიათ შეცვალოთ თქვენი პაროლი "
-"შემდეგი 30 წუთის განმავლობაში აქ:"
+"შემდეგი 30 წუთის განმავლობაში აქ: S"
 
 #: src/core/MailProvider.js:106
 #, javascript-format
@@ -560,4 +498,4 @@ msgstr ""
 
 #: src/core/MailProvider.js:130
 msgid "Couldn't find this mail in our database"
-msgstr ""
+msgstr "ვერ ვიპოვეთ მეილი დატაბეისში"
